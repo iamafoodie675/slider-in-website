@@ -8,7 +8,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
@@ -21,7 +21,7 @@
             height="40"
             class="d-inline-block align-text-top me-2 rounded-circle"
           />
-          <span style="font-size: 2rem; fnt-weight: bold; margin-left: 0.5rem"
+          <span style="font-size: 2rem; font-weight: bold; margin-left: 0.5rem"
             >ShopZone</span
           >
         </a>
@@ -66,28 +66,290 @@
       </div>
     </nav>
 
-    <div id="marketingCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
-        <div class="carousal-inner">
-            <div class="carousel-item active">
-                <div class="carousel-slide-bg d-flex align-items-center" style="background-image: url('bannar1.jpg');">
-                    <div class="container text-white">
-                        <h1 class="display-4 fw-bold">Mega Summer Sale</h1>
-                        <p class="lead">Get up to 70% off on top fashion brands today.</p>
-                    </div>
-                </div>
-
-
-                <div class="carousel-item">
-                    <div class="carousel-slide-bg d-flex align-items-center" style="background-image: url('bannar1.jpg');">
-                        <div class="container text-white">
-                            <h1 class="display-4 fw-bold">Mega Summer Sale</h1>
-                            <p class="lead">Get up to 70% off on top fashion brands today.</p>
-                        </div>
-                    </div>
-
+    <div
+      id="marketingCarousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      data-bs-interval="4000"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div
+            class="carousel-slide-bg d-flex align-items-center"
+            style="
+              background-image: url('https://img.freepik.com/free-photo/cheerful-lady-standing-with-shopping-bags-smiling-looking-happy-pink-background_1258-122868.jpg');
+            "
+          >
+            <div class="container text-white">
+              <h1 class="display-4 fw-bold">Welcome to ShopZone</h1>
+              <p class="lead">
+                Discover the latest trends and exclusive deals just for you.
+              </p>
             </div>
+          </div>
         </div>
+        <div class="carousel-item">
+          <div
+            class="carousel-slide-bg d-flex align-items-center"
+            style="
+              background-image: url('https://img.freepik.com/free-photo/shopping-concept-close-up-portrait-young-beautiful-attractive-redhair-girl-smiling-looking-camera_1258-126800.jpg?semt=ais_items_boosted&w=740');
+            "
+          >
+            <div class="container text-white">
+              <h1 class="display-4 fw-bold">Unbeatable Offers</h1>
+              <p class="lead">Save big on your favorite brands this season.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="carousel-slide-bg d-flex align-items-center"
+            style="
+              background-image: url('https://img.freepik.com/free-photo/shopping-concept-close-up-portrait-young-beautiful-attractive-redhair-girl-smiling-looking-camera_1258-118763.jpg?semt=ais_items_boosted&w=740');
+            "
+          >
+            <div class="container text-white">
+              <h1 class="display-4 fw-bold">Shop the Collection</h1>
+              <p class="lead">
+                Explore new arrivals and bestsellers for every style.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="carousel-slide-bg d-flex align-items-center"
+            style="
+              background-image: url('https://img.freepik.com/premium-photo/shopping-bags-female-hand-with-holiday-sparcles-pink-background-with-copy-space_150893-2629.jpg');
+            "
+          >
+            <div class="container text-white">
+              <h1 class="display-4 fw-bold">Exclusive Member Benefits</h1>
+              <p class="lead">Join now for early access and special rewards.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="carousel-slide-bg d-flex align-items-center"
+            style="
+              background-image: url('https://img.freepik.com/free-photo/attractive-asian-woman-showing-smartphone-app-shopping-bags-buying-online-via-application-standi_1258-156870.jpg?semt=ais_hybrid&w=740');
+            "
+          >
+            <div class="container text-white">
+              <h1 class="display-4 fw-bold">Shop Anytime, Anywhere</h1>
+              <p class="lead">Enjoy seamless shopping on all your devices.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#marketingCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#marketingCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-4 fw-bold text-center">Trending Products</h2>
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src=""
+                class="card-img-top product-img"
+                alt="Classic Denim Jacket"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Classic Denim Jecket</h5>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src=""
+                class="card-img-top product-img"
+                alt="Classic Denim Jacket"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Classic Denim Jecket</h5>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src=""
+                class="card-img-top product-img"
+                alt="Classic Denim Jacket"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Classic Denim Jecket</h5>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src=""
+                class="card-img-top product-img"
+                alt="Classic Denim Jacket"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Classic Denim Jecket</h5>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src=""
+                class="card-img-top product-img"
+                alt="Classic Denim Jacket"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Classic Denim Jecket</h5>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src=""
+                class="card-img-top product-img"
+                alt="Classic Denim Jacket"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Classic Denim Jecket</h5>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src=""
+                class="card-img-top product-img"
+                alt="Classic Denim Jacket"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Classic Denim Jecket</h5>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src=""
+                class="card-img-top product-img"
+                alt="Classic Denim Jacket"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Classic Denim Jecket</h5>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src=""
+                class="card-img-top product-img"
+                alt="Classic Denim Jacket"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Classic Denim Jecket</h5>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src=""
+                class="card-img-top product-img"
+                alt="Classic Denim Jacket"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Classic Denim Jecket</h5>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src=""
+                class="card-img-top product-img"
+                alt="Classic Denim Jacket"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Classic Denim Jecket</h5>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src=""
+                class="card-img-top product-img"
+                alt="Classic Denim Jacket"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Classic Denim Jecket</h5>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
